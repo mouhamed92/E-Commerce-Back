@@ -23,7 +23,7 @@ public class Product {
     private BigDecimal unitPrice ;
     private String imageUrl ;
     private boolean active ;
-    private int unitstocked ;
+    private int units_in_stock ;
 
     @CreationTimestamp
     private Date dateCreated ;
